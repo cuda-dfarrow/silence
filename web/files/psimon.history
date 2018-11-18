@@ -1,0 +1,7 @@
+git clone ssh://git@localhost:/home/git/silence-webapp.git
+cat silence-webapp/README.md
+su - agarfunkel
+mysql --user=root -p < setup.sql
+rm -rf silence-webapp
+exit
+

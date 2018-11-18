@@ -1,0 +1,2 @@
+sudo cp /home/psimon/silence-webapp/www/* /var/www/html/
+exit
