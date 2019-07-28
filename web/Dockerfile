@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:stretch
 MAINTAINER farrow.daveb@gmail.com
 
 RUN apt-get update && apt-get install -y \
